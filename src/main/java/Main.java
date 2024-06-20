@@ -3,11 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-System.out.println("Insira sua altura:");
+System.out.println("Insira sua altrua:");
         double altura = sc.nextDouble();
 System.out.println("Seu peso:");
         double massa = sc.nextDouble();
-System.out.println("Seu inc é:");
         double imc = massa / (altura * altura);
         System.out.printf("Seu imc é %.2f", imc);
         if (imc < 18.5) {
